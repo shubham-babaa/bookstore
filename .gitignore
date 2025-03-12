@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+echo "dist/" >> .gitignore
+git rm -r --cached dist/
+git commit -m "Ignore dist directory"
