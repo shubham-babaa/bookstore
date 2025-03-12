@@ -248,7 +248,7 @@ export default function Home() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                {/* <BookCard book={book} /> */}
+                <BookCard book={book} />
               </motion.div>
             ))}
           </div>
